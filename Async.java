@@ -1,6 +1,6 @@
 public class Async {
 
-    public static void Main(String[] args) {
+    public static void main(String[] args) {
         asyncSum(3, 9);
     }
 
@@ -8,7 +8,7 @@ public class Async {
         Thread newThread = new Thread(() -> {
             try{
                 Thread.sleep(1000);
-                System.out.println(number + " + " + number2 + " = " + number + number2);
+                System.out.println(number + " + " + number2 + " = " + (number + number2));
             }
             catch(Exception e ){
                 System.out.println(e.getMessage());

@@ -2,7 +2,7 @@ public class Factory{
 
     VehicleFactory factory;
     
-    void confiugureVehicle(String vehicleInput) throws Exception{
+    void configureVehicle(String vehicleInput) throws Exception{
     User user = new User(vehicleInput);
     String input = user.getTypeOfVehicle().toLowerCase();
 
