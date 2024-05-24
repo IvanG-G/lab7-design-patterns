@@ -253,13 +253,11 @@ public class Observer {
 To solve this problem we can use asynchronous methods, in java we can use different libaries, but in Java 8 we can use Threads, this is an example of how we can use them.
 
 the output of the next code is:
-
+```
 Before started async method
-
 Executed async method
-
 3 + 9 = 12
-
+```
 Ensuring the asynchonous funcionality.
 ```java
 public class Async {
